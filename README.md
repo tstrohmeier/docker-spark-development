@@ -1,14 +1,14 @@
 # docker-spark-development
 Dockerfiles for the tstrohmeier/spark-development images and example setup
 
-
-Base Images
 @Dockerhub: https://hub.docker.com/r/tstrohmeier/spark-development/
+
+**Base Images**
 
 * tstrohmeier/spark-development:2.2.0
 * tstrohmeier/spark-development:2.4.5
 
-Derived Images:
+**Derived Images:**
 * tstrohmeier/spark-development:2.4.5-gradle-6.5
 
 
