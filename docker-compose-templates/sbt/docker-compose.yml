@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  spark:
+    container_name: spark-development
+    image: tstrohmeier/spark-development:2.4.5
+    volumes:
+      ## ./src is the folder of your gradle project
+      - ./src:/home/spark
+      ## mount you local .ivy2 user profile
+      ## into the container to take advantage
+      ## of the ivy2 cache
+      # - $HOME/.ivy2/:/root/.ivy2/
+    ports:
+      - 5000-5431:5000-5431
+      - 5433-5010:5433-5010
+    stdin_open: true

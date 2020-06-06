@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  spark:
+    container_name: spark-development-gradle
+    image: tstrohmeier/spark-development:2.4.5-gradle-6.5
+    volumes:
+      ## ./src is the folder of your gradle project
+      - ./src:/home/spark
+      ## mount you local .gradle user profile
+      ## or the cache dir into the container
+      ## to take advantage of the gradle cache
+      #  - $HOME/.gradle/:/root/.gradle/
+    ports:
+      - 5000-5431:5000-5431
+      - 5433-5010:5433-5010
+    stdin_open: true
