@@ -31,6 +31,20 @@ docker-compose up -d
 docker-compose down
 ```
 
+
+## Building and running this example
+
+``` bash
+# 1. Start Container
+docker-compose up -d
+# 2. Build bundle
+docker-compose exec spark gradle jar
+# 3. Submit bundle
+docker-compose exec spark spark-submit --class "com.tstrohmeier.docker.examples.spark.gradle.SparkGradleExample" --master local[4] build/libs/sparkexample-1.0.jar
+
+```
+
+
 ## Open a /bin/bash terminal
 
 ``` bash
@@ -44,10 +58,3 @@ docker-compose exec spark <cmd>
 ```
 
 
-## Building and running this example
-
-``` bash
-docker-compose exec spark gradle jar
-docker-compose exec spark spark-submit --class "com.tstrohmeier.docker.examples.spark.gradle.SparkGradleExample" --master local[4] build/libs/sparkexample-1.0.jar
-
-```
