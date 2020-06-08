@@ -5,7 +5,7 @@ Set the path to your project folder:
 
 ```
     volumes:
-      # ./src is the folder of your maven project
+      ## ./src is the folder of your gradle project
       - .:/home/spark
 ```
 
