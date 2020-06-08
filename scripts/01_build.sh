@@ -16,3 +16,4 @@ build_images ./docker/spark/2.4.5  spark-development:2.4.5
 
 # Derived Images
 build_images ./docker/gradle/6.5  spark-development:2.4.5-gradle-6.5
+build_images ./docker/pip3  spark-development:2.4.5-pip3

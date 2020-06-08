@@ -10,6 +10,7 @@ Dockerfiles for the tstrohmeier/spark-development images and example setup
 
 **Derived Images:**
 * tstrohmeier/spark-development:2.4.5-gradle-6.5
+* tstrohmeier/spark-development:2.4.5-pip3
 
 
 ## Folder Structure
@@ -17,7 +18,9 @@ Dockerfiles for the tstrohmeier/spark-development images and example setup
     .
     ├── ...
     ├── docker                         # contains all the Dockerfiles
-    │   ├── gradle                     # the extended spark-development-gradle image
+    │   ├── gradle                     # extends the spark-development image with gradle
+    │   |   └── ...             
+    │   ├── pip3                       # extends the spark-development image with python3 & pip3
     │   |   └── ...             
     │   ├── spark                      # the spark-development base image        
     │   |   └── ...               
