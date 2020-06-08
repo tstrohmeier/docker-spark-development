@@ -17,3 +17,4 @@ push_images spark-development:2.4.5
 
 # Derived Images
 push_images spark-development:2.4.5-gradle-6.5
+push_images spark-development:2.4.5-pip3
