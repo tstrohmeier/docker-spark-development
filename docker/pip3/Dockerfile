@@ -1,6 +1,6 @@
 FROM tstrohmeier/spark-development:2.4.5
 
-LABEL "author" "Thomas Strohmeier, Fabio Moretti"
+LABEL authors="Thomas Strohmeier, Fabio Moretti"
 
 ENV PYSPARK_PYTHON /usr/bin/python3.7
 ENV PYSPARK_DRIVER_PYTHON /usr/bin/python3.7
