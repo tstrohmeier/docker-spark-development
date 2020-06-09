@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Fibs7000",
+      "name": "Fibs7000",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16261713?v=4",
+      "profile": "http://seekinnovation.at",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "docker-spark-development",
+  "projectOwner": "tstrohmeier",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
