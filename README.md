@@ -1,4 +1,7 @@
 # docker-spark-development
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 Dockerfiles for the tstrohmeier/spark-development images and example setup
 
 @Dockerhub: https://hub.docker.com/r/tstrohmeier/spark-development/
@@ -72,3 +75,21 @@ docker pull tstrohmeier/spark-development:2.4.5
 
 ## Contributing
 Any improvement as Pull Request is welcome!
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://seekinnovation.at"><img src="https://avatars2.githubusercontent.com/u/16261713?v=4" width="100px;" alt=""/><br /><sub><b>Fibs7000</b></sub></a><br /><a href="https://github.com/tstrohmeier/docker-spark-development/commits?author=Fibs7000" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
