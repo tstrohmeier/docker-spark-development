@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tstrohmeier",
+      "name": "Thomas Strohmeier",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13830953?v=4",
+      "profile": "https://twitter.com/t_strohmeier",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "docker-spark-development",
+  "projectOwner": "tstrohmeier",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
