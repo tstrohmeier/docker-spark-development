@@ -5,7 +5,7 @@ Set the path to your project folder:
 
 ```
     volumes:
-      ## ./src is the folder of your gradle project
+      ## ./src is the folder of your pyspark project
       - .:/home/spark
 ```
 
