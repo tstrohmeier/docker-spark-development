@@ -72,3 +72,9 @@ docker pull tstrohmeier/spark-development:2.4.5
 
 ## Contributing
 Any improvement as Pull Request is welcome!
+
+
+## Contributors
+
+* [tstrohmeier](https://github.com/tstrohmeier)
+* [Fibs7000](https://github.com/Fibs7000)
