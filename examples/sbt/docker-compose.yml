@@ -11,7 +11,4 @@ services:
       ## into the container to take advantage
       ## of the ivy2 cache
       # - $HOME/.ivy2/:/root/.ivy2/
-    ports:
-      - 5000-5431:5000-5431
-      - 5433-5010:5433-5010
     stdin_open: true

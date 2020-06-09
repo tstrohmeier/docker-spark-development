@@ -11,7 +11,4 @@ services:
       ## or the cache dir into the container
       ## to take advantage of the gradle cache
       #  - $HOME/.gradle/:/root/.gradle/
-    ports:
-      - 5000-5431:5000-5431
-      - 5433-5010:5433-5010
     stdin_open: true
