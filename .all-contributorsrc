@@ -12,7 +12,15 @@
       "profile": "https://twitter.com/t_strohmeier",
       "contributions": [
         "code",
-        "review"
+        "review"    
+    },
+    {
+      "login": "Fibs7000",
+      "name": "Fibs7000",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16261713?v=4",
+      "profile": "http://seekinnovation.at",
+      "contributions": [
+        "code"
       ]
     }
   ],

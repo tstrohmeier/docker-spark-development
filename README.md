@@ -79,6 +79,7 @@ docker pull tstrohmeier/spark-development:2.4.5
 Any improvement as Pull Request is welcome!
 
 
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -89,6 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://twitter.com/t_strohmeier"><img src="https://avatars3.githubusercontent.com/u/13830953?v=4" width="100px;" alt=""/><br /><sub><b>Thomas Strohmeier</b></sub></a><br /><a href="https://github.com/tstrohmeier/docker-spark-development/commits?author=tstrohmeier" title="Code">💻</a> <a href="https://github.com/tstrohmeier/docker-spark-development/pulls?q=is%3Apr+reviewed-by%3Atstrohmeier" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="http://seekinnovation.at"><img src="https://avatars2.githubusercontent.com/u/16261713?v=4" width="100px;" alt=""/><br /><sub><b>Fibs7000</b></sub></a><br /><a href="https://github.com/tstrohmeier/docker-spark-development/commits?author=Fibs7000" title="Code">💻</a></td>    
   </tr>
 </table>
 
