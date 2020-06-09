@@ -10,8 +10,6 @@ RUN echo "=== Installing pip3 ===" \
     && apt-get update \
     && apt-get install -y python3-pip \
     && apt-get clean \
-    && cp /usr/local/spark/conf/spark-env.sh.template /usr/local/spark/conf/spark-env.sh \
-    && echo export PYSPARK_PYTHON=/usr/bin/python3.7 >> /usr/local/spark/conf/spark-env.sh \
     && echo "=== installing pyspark ===" \
     && pip3 install pyspark
 
