@@ -8,3 +8,4 @@ services:
       ## ./src is the folder of your gradle project
       - .:/home/spark
     stdin_open: true
+    
