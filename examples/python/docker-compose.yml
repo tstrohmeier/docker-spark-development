@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  spark:
+    container_name: spark-development-python
+    image: tstrohmeier/spark-development:2.4.5-pip3
+    volumes:
+      ## ./src is the folder of your gradle project
+      - .:/home/spark
+    stdin_open: true
